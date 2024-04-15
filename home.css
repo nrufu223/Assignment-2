@@ -1,0 +1,46 @@
+.introduction {
+    padding: 2em;
+    background-color: #e9ecef;
+    text-align: center;
+}
+
+.introduction h1 {
+    color: #004165;
+}
+
+.introduction p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1em;
+    padding: 2em;
+}
+
+.features article {
+    background-color: white;
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.features h2 {
+    color: #004165;
+}
+
+.btn {
+    padding: 10px 15px;
+    background-color: #004165;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #005a9c;
+}

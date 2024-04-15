@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BCIS Program at Mount Royal University</title>
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/home.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="images/bcis-logo.png" alt="Mount Royal University Logo" id="logo">
+            <nav class="hamburger-menu">
+                <button aria-label="Open Menu" onclick="toggleMenu()">☰</button>
+                <ul id="menu">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="about.html">About BCIS</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="introduction">
+            <h1>Computer Information Systems Program</h1>
+            <p>Join our innovative and dynamic BCIS program and turn your passion for technology into a flourishing career. Get hands-on experience with the latest in software development, cybersecurity, and systems analysis.</p>
+            <a href="about.html" class="btn">Learn More</a>
+        </section>
+        <section class="features">
+            <article>
+                <h2>State-of-the-Art Curriculum</h2>
+                <p>Our curriculum is designed to stay current with the rapidly changing tech landscape, ensuring you gain relevant knowledge and skills.</p>
+            </article>
+            <article>
+                <h2>Industry Connections</h2>
+                <p>We have strong ties with tech companies, providing students with networking opportunities and insights into the industry.</p>
+            </article>
+            <article>
+                <h2>Hands-On Learning</h2>
+                <p>Experience real-world projects with our cooperative education program, internships, and lab exercises.</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>© Mount Royal University, 2024. Calgary, Alberta, Canada.</p>
+    </footer>
+    <script>
+        function toggleMenu() {
+            var menu = document.getElementById("menu");
+            if (menu.style.display === "block") {
+                menu.style.display = "none";
+            } else {
+                menu.style.display = "block";
+            }
+        }
+    </script>
+</body>
+</html>

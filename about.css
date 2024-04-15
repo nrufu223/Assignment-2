@@ -1,0 +1,39 @@
+.introduction {
+    padding: 2em;
+    text-align: center;
+    background-color: #e9ecef;
+}
+
+.introduction h1 {
+    color: #004165;
+}
+
+.introduction p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+.feature-image {
+    max-width: 100%;
+    height: auto;
+    padding: 20px 0;
+}
+
+.program-details, .faculty-highlights {
+    padding: 1em 2em;
+}
+
+.program-details h2, .faculty-highlights h2 {
+    color: #004165;
+    margin: 20px 0;
+}
+
+.details-list {
+    list-style: inside square;
+    margin: 20px 0;
+}
+
+.details-list li {
+    margin: 10px 0;
+}
+

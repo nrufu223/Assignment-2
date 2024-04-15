@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About BCIS Program at Mount Royal University</title>
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/about.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="images/bcis-logo.png" alt="Mount Royal University Logo" id="logo">
+            <nav class="hamburger-menu">
+                <button aria-label="Open Menu" onclick="toggleMenu()">☰</button>
+                <ul id="menu">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="about.html">About BCIS</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="introduction">
+            <h1>About the BCIS Program</h1>
+            <p>The Bachelor of Computer Information Systems (BCIS) at Mount Royal University integrates the disciplines of business, computing, and information processing. Our commitment to hands-on learning and real-world experiences prepares our graduates to be ahead in the field from day one.</p>
+            <img src="images/bcis-students.jpg" alt="BCIS Students" class="feature-image">
+        </section>
+        <section class="program-details">
+            <h2>Program Highlights</h2>
+            <p>Our BCIS program offers a unique blend of practical technology skills with a business focus, allowing our students to understand and adapt to the evolving needs of the industry. Key areas of study include:</p>
+            <ul class="details-list">
+                <li>Software Engineering</li>
+                <li>Systems Analysis</li>
+                <li>Web and Mobile Application Development</li>
+                <li>Data Management and Analytics</li>
+                <li>IT Project Management</li>
+            </ul>
+            <p>With a variety of elective options, students can tailor their education to their interests and career aspirations.</p>
+        </section>
+        <section class="faculty-highlights">
+            <h2>Our Faculty</h2>
+            <p>Our faculty members are not only educators but also active professionals and researchers in the field of information systems. This ensures that the knowledge and expertise they bring to the classroom are rooted in industry practice and current trends.</p>
+        </section>
+    </main>
+    <footer>
+        <p>© Mount Royal University, 2024. Calgary, Alberta, Canada.</p>
+    </footer>
+    <script>
+        function toggleMenu() {
+            var menu = document.getElementById("menu");
+            if (menu.style.display === "block") {
+                menu.style.display = "none";
+            } else {
+                menu.style.display = "block";
+            }
+        }
+    </script>
+</body>
+</html>
